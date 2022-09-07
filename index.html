@@ -290,16 +290,43 @@
 
         <section class="container my-5">
 
-            <div class="bg-success p-5">
+            <div class="bg-success p-5 rounded-2">
                 <div class="container text-center">
                     <div class="row g-2">
                         <div class="col-12 col-lg-6">
                             <h2 class="text-start text-white fw-bold mb-3">Ready to join?</h2>
-                            <p class="text-start text-white m-0">Explore our platform and discover your true potential.</p>
+                            <p class="text-start text-white m-0">Explore our platform and discover your true potential.
+                            </p>
                         </div>
                         <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-                            <a href="" class="btn btn-light fw-bold text-success">Register Now</a>
+                            <a href="" class="btn btn-light fw-bold text-success" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Register Now</a>
                         </div>
+
+                        <!-- Modal Start -->
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Registration Details</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Registration is currently closed due to some maintenance work. Please try again later.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal End -->
+
                     </div>
                 </div>
             </div>
