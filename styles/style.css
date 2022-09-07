@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-items a{
+.nav-items a {
     margin: 0 15px;
 }
+
+/* Slider Start */
+
+.drk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.4;
+    z-index: 1;
+}
+  
+.carousel-caption {
+    z-index: 2;
+}
+
+/* Slider End */
