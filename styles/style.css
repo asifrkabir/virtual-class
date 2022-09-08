@@ -53,3 +53,25 @@ body {
 }
 
 /* Feedback End */
+
+/* Footer Start */
+
+footer {
+    background-color: #161616;
+    min-height: 50vh;
+}
+
+.social-icons a{
+    color: #FFFFFF;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #242424;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.social-icons a:hover{
+    background-color: #4b4b4b;
+}
+
+/* Footer End */
