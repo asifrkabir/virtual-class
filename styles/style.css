@@ -18,7 +18,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: black;
+    background: #000000;
     opacity: 0.4;
     z-index: 1;
 }
@@ -31,6 +31,49 @@ body {
 
 /* Feedback Start */
 
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 50px;
+  color: #289BDE;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 50px;
+  color: #289BDE;
+}
+
+.gold-solid-star{
+    color: #FBBF24;
+}
+
+.gold-outline-star{
+    color: #FBBF24;
+}
 
 /* Feedback End */
